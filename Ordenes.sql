@@ -50,7 +50,7 @@ group by mes
 order by avg(monto_vendido) desc;
 
 /*
-Comrobamos esta misma estacionalidad de otra manera, mirando para cade mes cuanto suman en promedio sus ventas para los distintos años.
+Comprobamos esta misma estacionalidad de otra manera, mirando para cada mes cuanto suman en promedio sus ventas para los distintos años.
 Los meses con mas ventas estan al final del año.
 */
 
@@ -121,5 +121,5 @@ order by	año,mes;
 /*
 Aca podemos ver una diferencia mayor, de nuevo el mes con menos ventas es el primero, y se nota un mayor aumento en esta variable, que en los montos
 promedio de unidad vendida por mes.
-Entonces podemos deicr que aumentaron los ingresos por ventas no porque estemos vendiendo mas caro, sino porque estamos vendiendo mas cantidad.
+Entonces podemos decir que aumentaron los ingresos por ventas no porque estemos vendiendo mas caro, sino porque estamos vendiendo mas cantidad.
 */

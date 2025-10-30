@@ -4,11 +4,10 @@ Con la base normalizada, podemos empezar a hacernos preguntas de análisis.
  Cuales son los productos mas vendidos según ingreso generado?
  Cuales son los mas vendidos por unidades vendidas?
  Cual es el producto mas vendido por año y mes?
- Que productos tienen el mayor porcentaje de cancelados o en disputa?
  */
  
 /*
-Primero creo una vista cruzando los datos de oreden con productos
+Primero creo una vista cruzando los datos de orden con productos
 */
 create view cruce_prod as(
 	select	order_number,

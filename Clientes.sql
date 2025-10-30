@@ -29,7 +29,7 @@ on o.customer_id = c.customer_id
 );
 
 /*
-Cuantas unidades se vendieron y cuantos ingresos por ventas hubo en cada pais? Que porecentaje representa del total?
+Cuantas unidades se vendieron y cuantos ingresos por ventas hubo en cada pais? Que porcentaje representa del total?
 */
 select	country,
 		sum(sales) as total_sales,
@@ -212,6 +212,6 @@ order by	avg(total_sales) desc
 limit 10;
 
 
-/*Tendiendo esta información podemos saber que tipo de clientes tenemos y con cuale puede ser mas efectivo por ejemplo,
+/*Tendiendo esta información podemos saber que tipo de clientes tenemos y con cuales puede ser mas efectivo por ejemplo,
 ofrecer un descuento porcentual u ofrecer que por cada x número de unidades compradas se pueden llevar una unidad más.
 */
